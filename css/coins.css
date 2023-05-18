@@ -13,17 +13,17 @@ table#moedas{
     border-spacing: 0px;
 }
 
-table#moedas{
+table#moedas td{
     padding: 0.5em;
 }
 
 .coluna1{
-    width: 15%;
+    width: 20%;
     text-align: center;
 }
 
 .coluna2{
-    width: 85%;
+    width: 80%;
 }
 
 div#container img{
