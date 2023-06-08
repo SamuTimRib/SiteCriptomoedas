@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptomoedas - Fale Conosco</title>
+    <link rel="icon" href="../imagem/favicon.png">
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/fale_conosco.css">
+</head>
+<body>
+    <header>
+        <h1>Mercado de Criptomoedas</h1>
+        <p>Tudo o que você precisa saber está aqui</p>
+    </header>
+    <nav>
+        <a href="page_home.html">Home</a>
+        <a href="coins_page.html">Moedas</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="fale_conosco.html" class="link-ativo">Fale Conosco</a>
+    </nav>
+
+    <h1 id="titulo">Fale Conosco</h1>
+    <div id="formulario">
+        <form action="fale_conosco.html" method="post">
+            <label for="nome">Nome: *</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome completo" required>
+
+            <label for="email">E-mail: *</label>
+            <input type="email" name="email" id="email" placeholder="Seu melhor e-mail" required>
+
+            <label for="assunto">Assunto: </label>
+            <select name="asssnto" id="assunto">
+                <option value="">Selecione um assunto</option>
+                <option value="erro">Reportar um erro</option>
+                <option value="noticia">Publicar uma Notícia</option>
+                <option value="consultoria">Contratar consultoria</option>
+            </select>
+
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset" id="cancelar">Cancelar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>
+            Site Criado por Samuel Timóteo Ribeiro - Disciplina Desenvolvimento Web I
+        </p>
+        <p class="inline">Fonte:  </p><a href="https://www.infomoney.com.br/guias/criptomoedas/" target="_blank">https://www.infomoney.com.br/guias/criptomoedas/</a>
+    </footer>
+</body>
+</html>
